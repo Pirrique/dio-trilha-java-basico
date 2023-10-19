@@ -16,7 +16,7 @@ public class ProcessoSeletivo {
 		
 		imprimirTodosCandidatos();
 		
-		String candidatosParaLigar[] = {"PAULO" , "JOSE" , "MARIA"};
+		String candidatosParaLigar[] = {"PAULO" , "JOSE" , "MARIA" , "LEO"};
 		for (String candidato: candidatosParaLigar) {
 			ligar(candidato);
 		}
